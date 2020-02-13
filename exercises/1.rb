@@ -10,6 +10,14 @@
 # then write them out to the screen. Show the total
 # as well.
 
+die_1 = rand(1..6)
+die_2 = rand(1..6)
+total = die_1 + die_2
+
+puts "Die 1: " + "#{die_1}"
+puts "Die 2: " + "#{die_2}"
+puts "Total: " + "#{total}"
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)

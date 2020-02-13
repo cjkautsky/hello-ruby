@@ -11,6 +11,17 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+my_list = ["beer", "eggs", "bacon"]
+friends_list = ["beer", "cookies", "apples"]
+shared_list = my_list + friends_list
+shared_list = shared_list.sort.uniq
+
+if my_list[2] > my_list[1]
+    puts true
+end
+
+puts shared_list
+
 # HINTS
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
